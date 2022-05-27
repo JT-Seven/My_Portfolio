@@ -131,8 +131,7 @@
             closeSidebar() {
                 console.log("clicked");
                 const body = document.querySelector('body'),
-                sidebar = body.querySelector('.sidebar'),
-                toggle = body.querySelector(".toggle")
+                sidebar = body.querySelector('.sidebar');
 
                 sidebar.classList.toggle("close");
             }
